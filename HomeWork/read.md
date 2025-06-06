@@ -5,11 +5,13 @@
 部分參考w3school與范權榮的表單，其餘為原創
 
 [HW03](https://github.com/Shiraishidesu/_wp/tree/main/HomeWork/03_java)
+都是由GPT生成，僅加入少量註解
 
 [HW04](https://github.com/Shiraishidesu/_wp/tree/main/HomeWork/04_java_pro)
 都是由GPT生成，僅加入少量註解
 
 [HW05](https://github.com/Shiraishidesu/_wp/blob/main/HomeWork/05/01-basic/oakMe2.js)
+由老師的檔案進行原創更改
 
 [HW06](https://github.com/Shiraishidesu/_wp/blob/main/HomeWork/06/01-sqliteHello/sqlite1.js)
 由老師的檔案進行原創更改
