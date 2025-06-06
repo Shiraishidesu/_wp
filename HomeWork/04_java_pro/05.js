@@ -1,0 +1,20 @@
+// 類別與繼承：Animal 與 Dog
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    return `I am ${this.name}`;
+  }
+}
+
+class Dog extends Animal {
+  speak() {
+    return `Woof! I am ${this.name}`;
+  }
+}
+
+const dog = new Dog("Buddy");
+console.log(dog.speak()); 
+// "Woof! I am Buddy"

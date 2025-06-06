@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊新帳號</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 20px auto;
+            text-align: left;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .checkbox-group label {
+            margin-right: 10px;
+            font-weight: normal;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>註冊新帳號</h2>
+
+    <form action="submit.html" method="post">
+        <label for="username">使用者名稱：</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">電子郵件：</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">密碼：</label>
+        <input type="password" id="password" name="password" required minlength="6">
+
+        <label for="confirm_password">確認密碼：</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+
+        <label>性別：</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">女</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">其他</label>
+
+        <label for="birthday">生日：</label>
+        <input type="date" id="birthday" name="birthday">
+
+        <label>興趣：</label>
+        <div class="checkbox-group">
+            <input type="checkbox" id="sports" name="hobby" value="sports">
+            <label for="sports">運動</label>
+            <input type="checkbox" id="music" name="hobby" value="music">
+            <label for="music">音樂</label>
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">閱讀</label>
+            <input type="checkbox" id="travel" name="hobby" value="travel">
+            <label for="travel">旅遊</label>
+        </div>
+
+        <button type="submit">註冊</button>
+    </form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單範例</title>
+</head>
+<body>
+    <h2>完整表單範例</h2>
+    <form action="#" method="post">
+        <label for="text">文字輸入：</label>
+        <input type="text" id="text" name="text"><br><br>
+        
+        <label for="password">密碼：</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label for="email">電子郵件：</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="number">數字：</label>
+        <input type="number" id="number" name="number" min="0" max="100"><br><br>
+        
+        <label for="date">日期：</label>
+        <input type="date" id="date" name="date"><br><br>
+        
+        <label for="time">時間：</label>
+        <input type="time" id="time" name="time"><br><br>
+        
+        <label for="color">顏色選擇：</label>
+        <input type="color" id="color" name="color"><br><br>
+        
+        <label for="range">範圍選擇：</label>
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+        
+        <label>單選按鈕：</label>
+        <input type="radio" id="radio1" name="radio" value="選項1">
+        <label for="radio1">選項1</label>
+        <input type="radio" id="radio2" name="radio" value="選項2">
+        <label for="radio2">選項2</label><br><br>
+        
+        <label>核取方塊：</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="是">
+        <label for="checkbox1">是</label>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="否">
+        <label for="checkbox2">否</label><br><br>
+        
+        <label for="select">下拉選單：</label>
+        <select id="select" name="select">
+            <option value="選項A">選項A</option>
+            <option value="選項B">選項B</option>
+            <option value="選項C">選項C</option>
+        </select><br><br>
+        
+        <label for="textarea">多行文字輸入：</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="file">檔案上傳：</label>
+        <input type="file" id="file" name="file"><br><br>
+        
+        <label for="hidden">隱藏欄位：</label>
+        <input type="hidden" id="hidden" name="hidden" value="隱藏的值"><br><br>
+        
+        <button type="submit">提交</button>
+        <button type="reset">重設</button>
+    </form>
+</body>
+</html>
