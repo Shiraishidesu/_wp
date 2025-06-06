@@ -1,3 +1,9 @@
+### 期中期末整合
+
+111210501_資工二_楊松城
+
+#### 期末
+
 [HW01](https://github.com/Shiraishidesu/_wp/blob/main/HomeWork/01)
 原創
 
@@ -24,6 +30,8 @@
 
 [HW09](https://github.com/Shiraishidesu/_wp/tree/main/HomeWork/09/02-blogSignup)
 由GPT生成，進行理解
+
+#### 期中作業
 
 [mid](https://github.com/Shiraishidesu/_wp/tree/main/HomeWork/mid/02-sqliteManager)
 打算製作類似colab的sqlite的指令搜尋
